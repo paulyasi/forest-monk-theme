@@ -1,7 +1,7 @@
-Forest Monk Theme for Emacs
+Forest Monk Theme
 =================
 
-Forest Monk Theme for Emacs24 with deftheme support
+Forest Monk Theme for Emacs 24 and Vim
 Based on color-theme-calm-forest
 
 Examples:
