@@ -1,7 +1,7 @@
 " Vim color file
 " Based on emacs color-theme-calm-forest by Artur Hefczyz
-" Maintainer:	Paul Yasi <http://www.paulyasi.com>
-" URL: https://github.com/paulyasi/forest-monk-theme
+" Maintainer:	Paul Yasi <paul@paulyasi.com>
+" URL:		http://www.paulyasi.com
 
 set background=dark
 if version > 580
@@ -27,12 +27,13 @@ hi Cursor	guibg=orange guifg=grey12
 "hi ErrorMsg
 hi VertSplit	guibg=#c2bfa5 guifg=grey20 gui=none
 hi Folded	guibg=grey30 guifg=gold
-hi FoldColumn	guibg=grey30 guifg=tan
+hi FoldColumn	guibg=grey29 guifg=tan
 hi IncSearch	guifg=slategrey guibg=khaki
+hi LineNr guifg=grey
 "hi LineNr
 hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
-hi NonText	guifg=LightBlue guibg=grey30
+hi NonText	guifg=green guibg=grey12
 hi Question	guifg=springgreen
 hi Search	guibg=peru guifg=wheat
 hi SpecialKey	guifg=yellowgreen
@@ -49,12 +50,13 @@ hi WarningMsg	guifg=salmon
 
 " syntax highlighting groups
 hi Comment	guifg=chocolate1
-hi Constant	guifg=Aquamarine
+hi Constant	guifg=green
 hi Identifier	guifg=khaki
-hi Statement	guifg=LightSkyBlue
-hi PreProc	guifg=indianred
-hi Type		guifg=cyan "darkkhaki
-hi Special	guifg=navajowhite
+hi Statement	guifg=cyan
+hi PreProc	guifg=SkyBlue
+hi Delimiter	guifg=SkyBlue
+hi Type		guifg=Aquamarine
+hi Special	guifg=LightSalmon
 "hi Underlined
 hi Ignore	guifg=grey40
 "hi Error
@@ -97,5 +99,17 @@ hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
+" PHP Specific
+hi phpVarSelector guifg=green
+hi phpParent guifg=green
+hi phpComparison guifg=green
+hi phpOperator guifg=green
+hi phpMemberSelector guifg=green
+hi phpRegion guifg=lightgreen
+hi phpStringSingle guifg=LightSalmon
+"hi phpMethodsVar guifg=khaki
 
 "vim: sw=4
+
+
+
