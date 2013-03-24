@@ -110,7 +110,7 @@ hi phpStringSingle guifg=LightSalmon
 "hi phpMethodsVar guifg=khaki
 
 " Ruby Specific
-hi rubySymbol guifg=khaki
+hi rubySymbol guifg=Aquamarine
 
 "vim: sw=4
 
