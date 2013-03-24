@@ -14,7 +14,7 @@ if version > 580
 endif
 let g:colors_name="forestmonk"
 
-hi Normal	guifg=green guibg=grey12
+hi Normal	guifg=green guibg=grey12 ctermfg=DarkGreen ctermbg=DarkGray
 
 " highlight groups
 hi Cursor	guibg=orange guifg=grey12
@@ -64,7 +64,7 @@ hi Todo		guifg=orangered guibg=yellow2
 
 " color terminal definitions
 hi SpecialKey	ctermfg=darkgreen
-hi NonText	cterm=bold ctermfg=darkblue
+hi NonText	cterm=bold ctermfg=green ctermbg=grey
 hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
 hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
@@ -108,6 +108,9 @@ hi phpMemberSelector guifg=green
 hi phpRegion guifg=lightgreen
 hi phpStringSingle guifg=LightSalmon
 "hi phpMethodsVar guifg=khaki
+
+" Ruby Specific
+hi rubySymbol guifg=khaki
 
 "vim: sw=4
 
