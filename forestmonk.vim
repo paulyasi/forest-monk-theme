@@ -111,7 +111,13 @@ hi phpStringSingle guifg=LightSalmon
 
 " Ruby Specific
 hi rubySymbol guifg=Aquamarine
-
+hi rubyClass guifg=Aquamarine
+hi rubyConstant guifg=lightgreen
+hi rubyDefine guifg=Aquamarine
+hi rubyFunction	guifg=SkyBlue
+hi rubyString guifg=LightSalmon
+hi rubyInterpolation guifg=khaki
+hi rubyInterpolationDelimiter guifg=khaki
 "vim: sw=4
 
 
