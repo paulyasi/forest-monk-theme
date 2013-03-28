@@ -14,12 +14,13 @@ if version > 580
 endif
 let g:colors_name="forestmonk"
 
-hi Normal	guifg=green guibg=grey12 ctermfg=DarkGreen ctermbg=DarkGray
+hi Normal	guifg=green guibg=grey12 ctermfg=46
 
 " highlight groups
-hi Cursor	guibg=orange guifg=grey12
+hi Cursor	guibg=orange guifg=grey12 ctermfg=166
 "hi CursorIM
 "hi Directory
+"hi Directory	ctermfg=darkcyan
 "hi DiffAdd
 "hi DiffChange
 "hi DiffDelete
@@ -33,10 +34,11 @@ hi LineNr guifg=grey
 "hi LineNr
 hi ModeMsg	guifg=goldenrod
 hi MoreMsg	guifg=SeaGreen
-hi NonText	guifg=green guibg=grey12
+hi NonText	guifg=green guibg=grey12 ctermfg=46
 hi Question	guifg=springgreen
 hi Search	guibg=peru guifg=wheat
 hi SpecialKey	guifg=yellowgreen
+hi SpecialKey	ctermfg=darkgreen
 hi StatusLine	guibg=#c2bfa5 guifg=grey10 gui=none
 hi StatusLineNC	guibg=grey20 guifg=grey90 gui=none
 hi Title	guifg=indianred
@@ -49,13 +51,13 @@ hi WarningMsg	guifg=salmon
 "hi Tooltip
 
 " syntax highlighting groups
-hi Comment	guifg=chocolate1
-hi Constant	guifg=green
-hi Identifier	guifg=khaki
-hi Statement	guifg=cyan
-hi PreProc	guifg=SkyBlue
-hi Delimiter	guifg=SkyBlue
-hi Type		guifg=Aquamarine
+hi Comment	guifg=chocolate1 ctermfg=172
+hi Constant	guifg=green	ctermfg=46
+hi Identifier	guifg=khaki ctermfg=179
+hi Statement	guifg=cyan ctermfg=cyan
+hi PreProc	guifg=SkyBlue ctermfg=81
+hi Delimiter	guifg=SkyBlue ctermfg=14
+hi Type		guifg=Aquamarine cterm=bold ctermfg=122
 hi Special	guifg=LightSalmon
 "hi Underlined
 hi Ignore	guifg=grey40
@@ -63,9 +65,6 @@ hi Ignore	guifg=grey40
 hi Todo		guifg=orangered guibg=yellow2
 
 " color terminal definitions
-hi SpecialKey	ctermfg=darkgreen
-hi NonText	cterm=bold ctermfg=green ctermbg=grey
-hi Directory	ctermfg=darkcyan
 hi ErrorMsg	cterm=bold ctermfg=7 ctermbg=1
 hi IncSearch	cterm=NONE ctermfg=yellow ctermbg=green
 hi Search	cterm=NONE ctermfg=grey ctermbg=blue
@@ -87,26 +86,20 @@ hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
-hi Comment	ctermfg=darkcyan
-hi Constant	ctermfg=brown
 hi Special	ctermfg=5
-hi Identifier	ctermfg=6
-hi Statement	ctermfg=3
-hi PreProc	ctermfg=5
-hi Type		ctermfg=2
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
 hi Error	cterm=bold ctermfg=7 ctermbg=1
 
 " PHP Specific
-hi phpVarSelector guifg=green
-hi phpParent guifg=green
-hi phpComparison guifg=green
-hi phpOperator guifg=green
-hi phpMemberSelector guifg=green
+hi phpVarSelector guifg=green ctermfg=46
+hi phpParent guifg=green ctermfg=46
+hi phpComparison guifg=green ctermfg=46
+hi phpOperator guifg=green ctermfg=46
+hi phpMemberSelector guifg=green ctermfg=46
 hi phpRegion guifg=lightgreen
-hi phpStringSingle guifg=LightSalmon
+hi phpStringSingle guifg=LightSalmon ctermfg=179
 "hi phpMethodsVar guifg=khaki
 
 " Ruby Specific
