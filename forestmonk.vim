@@ -111,9 +111,9 @@ hi phpStringSingle guifg=LightSalmon
 
 " Ruby Specific
 hi rubySymbol guifg=Aquamarine
-hi rubyClass guifg=Aquamarine
+hi rubyClass guifg=cyan
 hi rubyConstant guifg=lightgreen
-hi rubyDefine guifg=Aquamarine
+hi rubyDefine guifg=cyan
 hi rubyFunction	guifg=SkyBlue
 hi rubyString guifg=LightSalmon
 hi rubyInterpolation guifg=khaki
