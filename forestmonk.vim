@@ -29,7 +29,7 @@ hi Cursor	guibg=orange guifg=grey12 ctermfg=166
 hi VertSplit	guibg=#c2bfa5 guifg=grey20 gui=none
 hi Folded	guibg=grey30 guifg=gold
 hi FoldColumn	guibg=grey29 guifg=tan
-hi IncSearch	guifg=slategrey guibg=khaki
+hi IncSearch	guifg=slategrey guibg=khaki ctermbg=186
 hi LineNr guifg=grey
 "hi LineNr
 hi ModeMsg	guifg=goldenrod
@@ -42,9 +42,9 @@ hi SpecialKey	ctermfg=darkgreen
 hi StatusLine	guibg=#c2bfa5 guifg=grey10 gui=none
 hi StatusLineNC	guibg=grey20 guifg=grey90 gui=none
 hi Title	guifg=indianred
-hi Visual	gui=none guifg=khaki guibg=olivedrab
+hi Visual	gui=none guifg=khaki guibg=olivedrab ctermfg=186
 "hi VisualNOS
-hi WarningMsg	guifg=salmon
+hi WarningMsg	guifg=salmon ctermfg=179
 "hi WildMenu
 "hi Menu
 "hi Scrollbar
@@ -53,12 +53,12 @@ hi WarningMsg	guifg=salmon
 " syntax highlighting groups
 hi Comment	guifg=chocolate1 ctermfg=172
 hi Constant	guifg=green	ctermfg=46
-hi Identifier	guifg=khaki ctermfg=179
-hi Statement	guifg=cyan ctermfg=cyan
+hi Identifier	guifg=khaki ctermfg=186
+hi Statement	guifg=cyan cterm=bold ctermfg=cyan
 hi PreProc	guifg=SkyBlue ctermfg=81
 hi Delimiter	guifg=SkyBlue ctermfg=14
 hi Type		guifg=Aquamarine cterm=bold ctermfg=122
-hi Special	guifg=LightSalmon
+hi Special	guifg=LightSalmon ctermfg=179
 "hi Underlined
 hi Ignore	guifg=grey40
 "hi Error
@@ -86,7 +86,6 @@ hi DiffAdd	ctermbg=4
 hi DiffChange	ctermbg=5
 hi DiffDelete	cterm=bold ctermfg=4 ctermbg=6
 hi DiffText	cterm=bold ctermbg=1
-hi Special	ctermfg=5
 hi Underlined	cterm=underline ctermfg=5
 hi Ignore	cterm=bold ctermfg=7
 hi Ignore	ctermfg=darkgrey
@@ -100,17 +99,16 @@ hi phpOperator guifg=green ctermfg=46
 hi phpMemberSelector guifg=green ctermfg=46
 hi phpRegion guifg=lightgreen
 hi phpStringSingle guifg=LightSalmon ctermfg=179
-"hi phpMethodsVar guifg=khaki
 
 " Ruby Specific
-hi rubySymbol guifg=Aquamarine
-hi rubyClass guifg=cyan
-hi rubyConstant guifg=lightgreen
-hi rubyDefine guifg=cyan
-hi rubyFunction	guifg=SkyBlue
-hi rubyString guifg=LightSalmon
-hi rubyInterpolation guifg=khaki
-hi rubyInterpolationDelimiter guifg=khaki
+hi rubySymbol guifg=Aquamarine ctermfg=122
+hi rubyClass guifg=cyan ctermfg=cyan
+hi rubyConstant guifg=lightgreen ctermfg=lightgreen
+hi rubyDefine guifg=cyan ctermfg=cyan
+hi rubyFunction	guifg=SkyBlue ctermfg=81
+hi rubyString guifg=LightSalmon ctermfg=179
+hi rubyInterpolation guifg=khaki ctermfg=186
+hi rubyInterpolationDelimiter guifg=khaki ctermfg=186
 "vim: sw=4
 
 
