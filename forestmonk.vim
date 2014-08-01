@@ -14,7 +14,7 @@ if version > 580
 endif
 let g:colors_name="forestmonk"
 
-hi Normal	guifg=green guibg=grey12 ctermfg=46
+hi Normal	guifg=green guibg=grey12 ctermfg=46 ctermbg=234
 
 " highlight groups
 hi Cursor	guibg=orange guifg=grey12 ctermfg=166
